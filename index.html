@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Formulario Login Validación con Javascript</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h2>Formulario Login Validación con Javascript</h2>
+        <form id="form_id" method="post" name="myform">
+          <label>Nombre de usuario:</label>
+          <input type="text" name="username" id="username" />
+          <label>Contraseña:</label>
+          <input type="password" name="password" id="password" />
+          <input type="button" value="Login" id="submit" onclick="validate()" />
+        </form>
+        <span
+          ><b class="note">Nota: </b>Para este ejemplo use el siguiente nombre
+          de usuario y contraseña. <br /><b class="valid"
+            >Nombre de usuario: Formget<br />Contraseña: formget#123</b
+          ></span
+        >
+      </div>
+    </div>
+    <!-- JS -->
+    <script src="js.js"></script>
+  </body>
+</html>
